@@ -4,7 +4,7 @@ from ollama import ChatResponse
 response: ChatResponse = chat(model='tinyllama', messages=[
   {
     'role': 'user',
-    'content': 'what is a flower?',
+    'content': 'how often a cow poops?',
   },
 ])
 print(response['message']['content'])

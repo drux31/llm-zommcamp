@@ -1,2 +1,4 @@
 pandas
 ollama
+jupyter
+scikit-learn
