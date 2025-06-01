@@ -1,0 +1,15 @@
+{
+  "build": {"dockerfile": "Dockerfile"},
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "ms-python.python",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "forwardPorts": [3000, 11434],
+  "remoteUser": "vscode"
+}

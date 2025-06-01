@@ -1,0 +1,5 @@
+# foders
+.ollama_env/
+*.env
+*.conf
+*.properties
